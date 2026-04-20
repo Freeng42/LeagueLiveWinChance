@@ -16,7 +16,7 @@ from torch.utils.data import Dataset, DataLoader
 from sklearn.metrics import accuracy_score, roc_auc_score
 
 BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
-CSV_PATH    = os.path.join(BASE_DIR, "combined_dataset.csv")
+CSV_PATH    = os.path.join(BASE_DIR, "lol_dataset.csv")
 MODEL_PATH  = os.path.join(BASE_DIR, "lol_model.pt")
 SCALER_PATH = os.path.join(BASE_DIR, "lol_scaler.json")
 FEAT_PATH   = os.path.join(BASE_DIR, "lol_features.json")
