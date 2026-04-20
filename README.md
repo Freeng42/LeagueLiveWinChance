@@ -14,7 +14,7 @@ Since it uses the localAPI no RiotGames API-key is needed.
 requirements: You need your own API key, to make your own dataset from your games or any other person.
 The code currently expects a .env with your API key in the same folder as "GetDataSet.py"
 
-Run GetDataSet.py type in the Player you want to get data from and wait for it to finnish.
+Run GetDataSet.py type follow the instructions and wait for it to finnish.
 You should now have a file called "lol_dataset.csv" in your folder.
 Now run lol_model.py to create your own lol_model.pt model file to continue with the steps above.
 
